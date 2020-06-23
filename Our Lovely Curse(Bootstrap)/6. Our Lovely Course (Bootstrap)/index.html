@@ -1,0 +1,173 @@
+<!--index.html-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Our Lovely Course</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="styling.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
+
+  </head>
+  <body data-spy="scroll" data-target="#mynavBar" background="images/Talavera1.png">
+     <!--Add video to the body element-->
+<!--
+      <video autoplay loop muted id="bgvideo">
+          <source src="images/nature%20video.mp4" type="video/mp4">
+      </video>
+      
+-->
+      <!--Create navigation bar with scrollspy-->
+      <nav role="navigation" class="navbar navbar-custom navbar-fixed-top" id="mynavBar">
+        
+          <div class="container-fluid">
+              <div class="navbar-header">
+                  <a class="navbar-brand">Mishka & Erick</a>
+                  <button type="button" class="navbar-toggle" data-target="#navbarCollapse" data-toggle="collapse">
+                      <span class="sr-only">Toggle navigation</span>      
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  </button>
+              </div>
+              <div class="navbar-collapse collapse" id="navbarCollapse">
+                  <ul class="nav navbar-nav navbar-right">
+                      <li class="active"><a href="#home">Home</a></li>
+                      <li><a href="#about">Welcome</a></li>
+                      <li><a href="#promise">Register</a></li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+      
+      <!--Create the home section with title, goal and joins us button-->
+      <div class="jumbotron" id="home">
+          <div class="container">
+              <h1>Mishka & Erick Wedding</h1>
+              <h2>A wedding out of a romantic movie</h2>
+              <p><a class="btn" href="#">Join us Now!</a></p>
+          </div>
+      </div>
+      
+      <!--Create about section showing course details using grid system-->
+      <div id="about">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-4">
+                      <img src="images/sanmiguel.jpg" class="aboutImage">
+                      <h2>San Miguel</h2>
+                      <p>The wedding will be in the town called San Miguel where many weddings have been hosted, for example.......</p>
+                  </div>
+                  <div class="col-md-4">
+                      <img src="images/Boda.jpg" class="aboutImage">
+                      <h2>Church Ceremony </h2>
+                      <p>The ceremony where the vows are made is in a church called.....</p>
+                  </div>
+                  <div class="col-md-4">
+                      <img src="images/Fiesta.jpeg" class="aboutImage">
+                      <h2>Attendees</h2>
+                      <p>The guest list is made of family and close friends. Click reserve to confirme your appearence</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+      <!--Create Carousel-->
+      <div id="promise" class="container-fluid">
+          <div class="carousel slide" id="myCarousel" data-ride="carousel">
+              <ol class="carousel-indicators">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active">
+                  </li>
+                  <li data-target="#myCarousel" data-slide-to="1">
+                  </li>
+                  <li data-target="#myCarousel" data-slide-to="2">
+                  </li>
+                  <li data-target="#myCarousel" data-slide-to="3">
+                  </li>
+                  <li data-target="#myCarousel" data-slide-to="4">
+                  </li>
+                  <li data-target="#myCarousel" data-slide-to="5">
+                  </li>
+                  <li data-target="#myCarousel" data-slide-to="6">
+                  </li>
+              </ol>
+              <div class="carousel-inner">
+                  <div class="item active">
+                      <img src="images/Mishka.jpg">
+                      <div class="carousel-caption">
+                          <h2>Lovely</h2>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <img src="images/Mishka.jpg">
+                      <div class="carousel-caption">
+                          <h2>Lovely</h2>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <img src="images/Mishka1.jpg">
+                      <div class="carousel-caption">
+                          <h2>Lovely</h2>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <img src="images/Mishka2.jpg">
+                      <div class="carousel-caption">
+                          <h2>Lovely</h2>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <img src="images/Mishka3.jpg">
+                      <div class="carousel-caption">
+                          <h2>Lovely</h2>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <img src="images/Mishka4.jpg">
+                      <div class="carousel-caption">
+                          <h2>Lovely</h2>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <img src="images/Mishka5.jpg">
+                      <div class="carousel-caption">
+                          <h2>Lovely</h2>
+                      </div>
+                  </div>
+              </div>
+              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                  <span class="sr-only">Previous</span>
+              
+              </a>
+              <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                  <span class="sr-only">Previous</span>
+              
+              </a>
+          </div>
+      </div>
+      <!--Add a footer for our website-->
+      <div class="footer">
+          <div class="container">
+              <p>&copy;Develop with Sam.</p>
+          </div>
+      </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+      <script>
+          $(function(){
+                $('.carousel').carousel({
+                    interval: 10000
+                }); 
+          });
+      </script>
+  </body>
+</html>
